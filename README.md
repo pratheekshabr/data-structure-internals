@@ -3,12 +3,12 @@
 1. Write a program to implement Breadth First Search for undirected graph (BFS).
 *****************************************************
 #include<iostream><BR>
-#include<conio.h><br><br>
-#include<stdlib.h><br><br>
-using namespace std;<br><br>
- int cost[10][10],qu[10],front,rare,visit[10],visited[10];<br><br>
-int main()<br><br>
-{<br><br>
+#include<conio.h><br>
+#include<stdlib.h><br>
+using namespace std;<br>
+ int cost[10][10],qu[10],front,rare,visit[10],visited[10];<br>
+int main()<br>
+{<br>
 
    int m,n,j,i,v,k;<br>
     cout <<"Enter no of vertices:";<br>
