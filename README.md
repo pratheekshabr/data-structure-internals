@@ -190,52 +190,52 @@ void Merge(int*a,int low,int high,int mid)<br>
 	k++;<br>
 	i++;<br>
 	}<br>
- 
-	while(j<=high)<br>
+ while(j<=high)<br>
 		{<br>
-		temp[k]=a[j];<br>
-		k++;<br>
-		j++;<br>
-		}<br>
+	
+temp[k]=a[j];<br>
+	k++;<br>
+	j++;<br>
+	}<br>
 		
 
-		for(i=low;i<=high;i++)<br>
-		{<br>
-		a[i]=temp[i-low];<br>
-			}<br>
-	}<br>
-		void MergeSort(int*a,int low,int high)<br>
+	for(i=low;i<=high;i++)<br>
 	{<br>
-			int mid;<br>
-			if(low<high)<br>
-		{<br>
-				mid=(low+high)/2;<br>
-				MergeSort(a,low,mid);<br>
-				MergeSort(a,mid+1,high;<br>
-				Merge(a,low,high,mid);<br>
-			}<br>
-		}<br>
+	a[i]=temp[i-low];<br>
+	}<br>
+	}<br>
+	void MergeSort(int*a,int low,int high)<br>
+	{<br>
+	int mid;<br>
+	if(low<high)<br>
+	{<br>
+	mid=(low+high)/2;<br>
+	MergeSort(a,low,mid);<br>
+	MergeSort(a,mid+1,high;<br>
+	Merge(a,low,high,mid);<br>
+	}<br>
+}<br>
 		
-	     void Main()<br>
-		{<br>
-			int n,i;<br>
-			cout<<"\nEnter the number of data elements to be sorted:";<br>
-			cin>>n;<br>
-			int arr[n];<br>
-			for(i=0;i<n;i++)<br>
-			{<br>
-				cout<<"Enter element"<<i+1<<":";<br>
-				cin>>arr[i];<br>
-			}<br>
+	   void Main()<br>
+	{<br>
+	int n,i;<br>
+	cout<<"\nEnter the number of data elements to be sorted:";<br>
+	cin>>n;<br>
+	int arr[n];<br>
+	for(i=0;i<n;i++)<br>
+	{<br>
+	cout<<"Enter element"<<i+1<<":";<br>
+	cin>>arr[i];<br>
+	}<br>
+	MaergeSort(arr,0,n-1);<br>
+	cout<<"\nSorted Data";<br>
+	for(i=o;i<n;i++)<br>
+	cout<<"->"<<arr[i];<br>
+	getch();<br>
+	}<br>
+			
+			
+Output:<br>
+******<br>
+	
 		
-				MaergeSort(arr,0,n-1);<br>
-				cout<<"\nSorted Data";<br>
-				for(i=o;i<n;i++)<br>
-				cout<<"->"<<arr[i];<br>
-				getch();<br>
-		}<br>
-			
-			
-			
-				
-	<br>
