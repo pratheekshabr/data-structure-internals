@@ -153,3 +153,9 @@ int main()<br>
 solveNQ();<br>
 return 0;<br>
 }<br>
+ 
+Output:<br>
+******<br>
+ ![Screenshot (208)](https://user-images.githubusercontent.com/97940277/165235533-e62993fe-3e9d-4c94-9e50-eeab40cab7c4.png)<br>
+
+ 
