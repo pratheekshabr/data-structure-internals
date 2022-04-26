@@ -186,29 +186,29 @@ void Merge(int*a,int low,int high,int mid)<br>
 	}<br>
 	while(i<=mid)<br><br>
 	{<br>
-		temp[k]=a[i];<br>
-		k++;<br>
-		i++;<br>
+	temp[k]=a[i];<br>
+	k++;<br>
+	i++;<br>
 	}<br>
  
-		while(j<=high)<br>
+	while(j<=high)<br>
 		{<br>
-			temp[k]=a[j];<br>
-			k++;<br>
-			j++;<br>
+		temp[k]=a[j];<br>
+		k++;<br>
+		j++;<br>
 		}<br>
 		
-	
-			for(i=low;i<=high;i++)<br>
-			{<br>
-				a[i]=temp[i-low];<br>
+
+		for(i=low;i<=high;i++)<br>
+		{<br>
+		a[i]=temp[i-low];<br>
 			}<br>
 	}<br>
 		void MergeSort(int*a,int low,int high)<br>
-		{<br>
+	{<br>
 			int mid;<br>
 			if(low<high)<br>
-			{<br>
+		{<br>
 				mid=(low+high)/2;<br>
 				MergeSort(a,low,mid);<br>
 				MergeSort(a,mid+1,high;<br>
