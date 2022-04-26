@@ -502,4 +502,10 @@ void double_llist::add_after(int value, int pos)<br>
 		
 Output:<br>
 ******<br>
+![Screenshot (160)](https://user-images.githubusercontent.com/97940277/163759755-d480a09a-6349-4aa1-9a7e-88dcffa0b61a.png)<br>
+![Screenshot (161)](https://user-images.githubusercontent.com/97940277/163759850-0e2bc72a-8bc7-499a-8e3e-c40872911f17.png)<br>
+![Screenshot (162)](https://user-images.githubusercontent.com/97940277/163759985-d8292c39-af25-4e8d-9b78-811cdd0be704.png)<br>
+![Screenshot (163)](https://user-images.githubusercontent.com/97940277/163760147-17cbb7ea-0b46-454c-be91-07948b092695.png)<br>
+![Screenshot (164)](https://user-images.githubusercontent.com/97940277/163760339-47f0b9b5-a149-4176-ac24-a2708e2b272b.png)<br>
+
 	
