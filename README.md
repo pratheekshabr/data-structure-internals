@@ -50,23 +50,23 @@ int main()<br><br>
  ***************************************
   2. Write a program to implement Depth First Search for undirected graph (DFS).<BR><br>
  **************************************
-#include<iostream><BR><br>
-#include<conio.h><BR><br>
-#include<stdlib.h><BR><br>
-using namespace std;<BR><br>
-int cost[10][10],i,j,k,n,stk[10],top,v,visit[10],visited[10];<BR><br>
-int main()<BR><br>
-{<BR><br>
-    int m;<BR><br>
-    cout <<"Enter no of vertices:";<BR><br>
-    cin >> n;<BR><br>
-    cout <<"Enter no of edges:";<BR><br>
-    cin >> m;<BR><br>
-    cout <<"\nEDGES \n";<BR><br>
-    for(k=1; k<=m; k++)<BR><br>
-    {<BR><br>
-        cin >>i>>j;<BR><br>
-        cost[i][j]=1;<BR><br>
+#include<iostream><BR>
+#include<conio.h><BR>
+#include<stdlib.h><BR>
+using namespace std;<BR>
+int cost[10][10],i,j,k,n,stk[10],top,v,visit[10],visited[10];<BR>
+int main()<BR>
+{<BR>
+    int m;<BR>
+    cout <<"Enter no of vertices:";<BR>
+    cin >> n;<BR>
+    cout <<"Enter no of edges:";<BR>
+    cin >> m;<BR>
+    cout <<"\nEDGES \n";<BR>
+    for(k=1; k<=m; k++)<BR>
+    {<BR>
+        cin >>i>>j;<BR>
+        cost[i][j]=1;<BR>
     }<br>
     cout <<"Enter initial vertex to traverse from:";<br>
     cin >>v;<br>
