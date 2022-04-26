@@ -41,7 +41,7 @@ int main()<br>
         visit[v]=0;<br>
         visited[v]=1;<br>
     }<br>
-    return 0;<BR><br>
+    return 0;<BR>
 }<br>
   
  Output:
