@@ -500,3 +500,6 @@ void double_llist::add_after(int value, int pos)<br>
     cout<<"List Reversed"<<endl;<br>
 }<br>
 		
+Output:<br>
+******<br>
+	
